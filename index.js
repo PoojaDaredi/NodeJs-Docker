@@ -7,7 +7,7 @@ const PORT = 3000;
   
 app.get('/', (req, res)=>{ 
     res.status(200); 
-    res.send("Hello from world"); 
+    res.send("Hello Docker World"); 
 }); 
   
 app.listen(PORT, (error) =>{ 
